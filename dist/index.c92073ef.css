@@ -1,0 +1,130 @@
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap";
+* {
+  font-family: Open Sans, sans-serif;
+}
+
+#main {
+  position: relative;
+  left: 30px;
+}
+
+.app {
+  width: 800px;
+  position: relative;
+}
+
+.type-an-item {
+  background-color: #000;
+  border: 1px solid;
+  position: relative;
+}
+
+.type-an-item > input {
+  outline: none;
+  width: 774px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.shopping-list {
+  background-color: #3e6944;
+  width: 800px;
+  padding-top: 25px;
+  position: relative;
+  top: 20px;
+}
+
+.completed {
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  user-select: none;
+  z-index: 10;
+  background-color: #c5c5c5;
+  width: 800px;
+  padding-top: 25px;
+  position: relative;
+  top: 30px;
+  overflow: hidden;
+}
+
+.completed > * {
+  opacity: .3;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.item {
+  width: 800px;
+  height: 70px;
+  margin-top: 2px;
+  position: relative;
+}
+
+.task {
+  text-shadow: 1px 2px #0000001a;
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.high {
+  color: #fff;
+  background-color: #e73f3f;
+}
+
+.normal {
+  background-color: #f1ecdc;
+}
+
+.low {
+  color: #fff;
+  background-color: #823ee9;
+}
+
+.priority-control {
+  background-color: #363636;
+  width: 100px;
+  height: 70px;
+  position: absolute;
+  top: 0;
+  right: 80px;
+}
+
+.priority-control > span {
+  cursor: pointer;
+  border: 1px solid #fff;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: relative;
+  top: 24px;
+  left: 12px;
+}
+
+.remove-btn {
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  color: #fff;
+  background-color: #363636;
+  width: 78px;
+  height: 70px;
+  padding-top: 27px;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#clear-completed {
+  color: #000;
+  margin-bottom: 2px;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  top: 2px;
+}
+/*# sourceMappingURL=index.c92073ef.css.map */
