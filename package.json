@@ -13,5 +13,8 @@
   "license": "AFL-3.0",
   "devDependencies": {
     "parcel": "^2.0.0"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
